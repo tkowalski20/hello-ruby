@@ -9,6 +9,12 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+
+puts dice1
+puts dice2
+puts "total = " + "#{dice1 + dice2}"
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
